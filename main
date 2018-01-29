@@ -1,0 +1,14 @@
+const Germany;
+const Japan;
+const USA;
+const UK;
+const Sweden;
+const Italy;
+
+var userAnswer = prompt("Please enter the brand of a luxury car", "Mercedes-Benz");
+
+if (userAnswer === "BMW"){
+  txt = `The ${userAnswer} is from Germany`;
+ } else {
+  txt = "I don't recognize that luxury car :(";
+ }
